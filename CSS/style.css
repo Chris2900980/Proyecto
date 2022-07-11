@@ -1,0 +1,118 @@
+body{
+    background:linear-gradient(90deg, rgba(0,0,0,0.9895308465182948) 0%, rgba(51,51,51,0.950315160243785) 50%, rgba(0,0,0,1) 100%);
+    color: beige;
+    font-family: 'Roboto', sans-serif;    
+   padding: 1em;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+header{
+    background-color: rgb(149, 147, 146);
+    color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    }
+
+.liindex{
+    padding: 3px;
+    font-size: x-large;
+    color: black;
+}
+h1{
+    text-align: center;
+    text-underline-offset: 2px;
+    text-decoration: underline;
+    font-size: xx-large;}
+.imglogo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;}
+
+.mundoimg{
+    width: 600px;
+    height: 300px;
+}
+
+table,th,td,tr{
+    border: solid rgb(28, 116, 116);
+    border-collapse: collapse;
+    padding: 2px;}
+
+th{
+    background-color: rgb(52, 154, 154);
+}
+td{
+    padding: 8px;
+}
+
+
+.imgfooter{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.epígrafe{
+    font-size: 9px;
+    text-align: left;
+}
+
+.locmap{
+    height: 300px;
+    width: 500px;
+   }
+
+.foto_calle{
+    height: 300px;
+    width: 500px;
+}
+.liubicación{
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*------ Sección servicios -----*/
+
+.servicios h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-servicios{
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-servicios img{
+    width: 100%;
+}
+
+.card-servicios a{
+    border: 1px solid rgb(112, 112, 112);
+    padding: 5px;
+    border-radius: 10px;
+    margin-block: 5px;
+}
